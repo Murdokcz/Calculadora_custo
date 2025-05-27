@@ -1,0 +1,57 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+.table-auto {
+    table-layout: auto;
+    width: 100%;
+}
+
+.table-auto th,
+.table-auto td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+/* Dark mode styles */
+.dark input,
+.dark select,
+.dark textarea {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border-color: #404040;
+}
+
+.dark label {
+    color: #ffffff;
+}
+
+.dark .bg-white {
+    background-color: #2d2d2d;
+}
+
+.dark .text-gray-700 {
+    color: #ffffff;
+}
+
+.dark .border-b {
+    border-color: #404040;
+}
+
+.dark .bg-gray-100 {
+    background-color: #1a1a1a;
+}
+
+.dark .bg-gray-200 {
+    background-color: #2d2d2d;
+}
